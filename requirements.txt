@@ -1,0 +1,21 @@
+# Core Flask dependencies
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Database connectivity - using specific version for Azure compatibility
+pyodbc==4.0.39
+
+# Caching dependencies (Redis or Memcached)
+Flask-Caching==2.1.0
+redis==5.0.1
+
+
+# For performance measurement and profiling
+psutil==5.9.8
+
+# WSGI server for production
+gunicorn==21.2.0
